@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+ form{
+margin: 0;
+padding: 0;
+display: grid;
+justify-content: center;
+align-content: center;
+height: 60vh;
+font-family:'Lobster', cursive; 
+font-size: 20px;
+
+}
+.ml6 {
+  position: relative;
+  font-weight: 900;
+  font-size: 3.3em;
+  color:blueviolet;
+  font-family:'Lobster', cursive; 
+}
+
+.ml6 .text-wrapper {
+  position: relative;
+  display: inline-block;
+  padding-top: 0.2em;
+  padding-right: 0.05em;
+  padding-bottom: 0.1em;
+  overflow: hidden;
+}
+
+.ml6 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+
+h1{
+  font-family:'Lobster', cursive; ;
+  display: flex;
+  justify-content: center;
+  color: palevioletred;
+  margin: 0;
+  padding: 4%;
+  
+  
+}
+body{
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+button{
+  border: 3px   solid , rgba(100, 100,100, 0.1);
+  margin-bottom: 20px;
+  padding: 15px;
+  width: 110px;
+  border-radius: 8px;
+  cursor: pointer;
+  color: black;
+  background-size: 300%;
+  background: #ED4264;  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #FFEDBC, #ED4264);  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #FFEDBC, #ED4264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  font-family:'Lobster', cursive; ;
+}
+
